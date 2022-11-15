@@ -1,0 +1,43 @@
+import java.util.Scanner;
+public class Main {
+    public static void main(String[] args) {
+        //for loop
+        for (int i = 100; i >= 0; i--) {
+            if (i == 50) {
+                break;
+            }
+            System.out.println(i + ":" + "hello");
+        }
+        //while loop
+        //the print of 1 to 100
+        int i = 0;
+        while (i < 100) {
+            System.out.println(i);
+            i++;
+            //the print of 100 to 1
+            int i = 100;
+            while (i >= 0) {
+                System.out.println(i);
+                i--;
+//the print of odd number using while
+                int i = 0;
+                while (i <= 100) {
+                    System.out.println(i);
+                    i = i + 2;
+                    // the practic in class
+                    Scanner enternum = new Scanner(System.in);
+                    int sum = 0;
+                    int number = 100;
+                    while (number != 0) {
+                        System.out.println("Enter number or 0");
+                        number = enternum.nextInt();
+                        sum = sum + number;
+                    }
+                    System.out.println("the sum is:" + sum);
+
+
+                }
+            }
+        }
+    }
+}
