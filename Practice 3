@@ -27,7 +27,7 @@ public class Main {
             }
             String name2 = "reem";
             int name3 = name2.length() - 1;
-            for (int num2 = name1; num2 >= 0; num2--) {
+            for (int num2 = name3; num2 >= 0; num2--) {
                 System.out.println(name2.charAt(num2));
             }
 
